@@ -1,0 +1,16 @@
+﻿<Window x:Class="Lecture84ArrayListApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lecture84ArrayListApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtValue" HorizontalAlignment="Left" Height="45" Margin="129,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="560"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="129,233,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.24,2.375" Height="41" Click="btnAdd_Click"/>
+        <Button x:Name="btnRemove" Content="Remove" HorizontalAlignment="Left" Margin="325,233,0,0" VerticalAlignment="Top" Width="134" RenderTransformOrigin="0.54,1.025" Height="41" Click="btnRemove_Click"/>
+        <Button x:Name="btnShowAll" Content="Show All" HorizontalAlignment="Left" Margin="531,233,0,0" VerticalAlignment="Top" Width="158" Height="41" Click="btnShowAll_Click"/>
+
+    </Grid>
+</Window>
